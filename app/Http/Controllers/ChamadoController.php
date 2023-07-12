@@ -42,7 +42,7 @@ class ChamadoController extends Controller
         ->first();
 
         // dd($qtdChamados);
-
+        // USADO APENAS PARA TESTES
         // $qtdChamados = Vendedor::selectRaw('name, count(qtdAb) as qtd')
         // ->groupBy('name')
         // ->orderBy('qtd', 'desc')
